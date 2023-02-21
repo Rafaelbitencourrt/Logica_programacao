@@ -1,4 +1,5 @@
 # Logica_programacao
+
 Curso de lógica de programação - Dev Samurai (exercicios).
 
 1- Faça um programa que imprima todos os números pares de 0 a 100.
@@ -20,3 +21,9 @@ Curso de lógica de programação - Dev Samurai (exercicios).
 9- Faça um programa que leia uma lista de números e imprima apenas os números que são divisíveis por 3 e por 5.
 
 10-Faça um programa que leia uma lista de nomes e imprima os nomes em ordem alfabética.
+
+11- Receber a idade de uma pessoa e informar se ela pode votar ou não (idade mínima de 16 anos para votar):
+
+12- Receber um número inteiro do usuário e informar se ele é positivo, negativo ou zero:
+
+13- Receber dois números do usuário e informar qual é o maior:
