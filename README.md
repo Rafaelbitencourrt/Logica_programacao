@@ -27,3 +27,5 @@ Curso de lógica de programação - Dev Samurai (exercicios).
 12- Receber um número inteiro do usuário e informar se ele é positivo, negativo ou zero:
 
 13- Receber dois números do usuário e informar qual é o maior:
+
+14- Identificar qual o idioma utilizado na saudação
