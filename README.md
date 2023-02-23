@@ -28,4 +28,16 @@ Curso de lógica de programação - Dev Samurai (exercicios).
 
 13- Receber dois números do usuário e informar qual é o maior:
 
-14- Identificar qual o idioma utilizado na saudação
+14- Identificar qual o idioma utilizado na saudação.
+
+15 - Exemplos de estruras de repetição.
+
+16 - Função sem parâmetros
+
+17 - Função com um parâmetro
+
+18 - Função com varios parâmetros
+
+19 - Função anônima atribuída a uma variavel
+
+20 -Função de seta
