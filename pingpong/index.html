@@ -1,25 +1,38 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jogo Ping Pong</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jogo Ping-Pong</title>
+    <style>
+        * {
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
 </head>
 
 <body>
     <canvas></canvas>
     <script>
-        const canvasEL = document.querySelector("canvas"), canvasCtx = canvasEl.getContext('2d')
+        const canvasEl = document.querySelector("canvas"),
+            canvasCtx = canvasEl.getContext("2d")
 
         function setup() {
-            canvasEL.with = window.innerWidth
-            canvasCtx.with = window.innerWidth
-            canvasEL.height = window.innerHeight
-            canvasCtx.height = window.innerHeight
+            canvasEl.width = canvasCtx.width = window.innerWidth
+            canvasEl.height = canvasCtx.height = window.innerHeight
         }
-        function draw() { }
+
+        function draw() {
+            canvasCtx.fillStyle = "#286047"
+            canvasCtx.fillRect(0, 0, window.innerWidth, window.innerHeight)
+        }
+
+        setup()
+        draw()
     </script>
 </body>
 
